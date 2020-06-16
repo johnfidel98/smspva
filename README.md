@@ -5,7 +5,7 @@ Docs http://smspva.com/new_theme_api.html
 You can install this package using git or pip for example -
 
 ```
-pip install smspva
+pip install git+https://github.com/johnfidel98/smspva.git#smspva
 ```
 OR
 
@@ -18,7 +18,7 @@ OR
  ```python
 from smspva import *
 sms_pva = smsPvaAPI(API_KEY)
-print(sms_pva.get_balance("opt4"))
+print(sms_pva.get_balance())
 ```
 Available Methods: 
 
